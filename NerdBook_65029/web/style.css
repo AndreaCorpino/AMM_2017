@@ -1,0 +1,1545 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22-mag-2017, 15.12.58
+    Author     : andreacorpino
+*/
+
+body
+{
+    background-color: #E8EAF6; 
+    height:100%;
+              
+    
+}
+
+
+
+
+a:link
+{
+    text-decoration: none;
+    
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+
+
+header
+{
+   position:fixed;
+   height: 58px;
+   background-color:#C5CAE9;
+   top:0;
+   left:0;
+   width: 100%;
+   border-top:1px solid grey;
+   border-bottom:1px solid grey;
+   border-right:1px solid grey;
+   position:fixed;
+   
+   
+   
+}
+
+div#logo_div
+{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left:20px;
+  top:-18px;
+  
+}
+
+
+div#phrase_div
+{
+    
+     height:40px;
+     width:150px;
+     position:relative;
+     left:95px;
+     top:-100px
+}
+
+div.error
+{
+    
+    width: 273px;
+    height: 50px;
+    background-color: red;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-left: 40%;
+    margin-top: 10px;
+    
+}
+
+div.error h2
+{
+    margin-top: 13px;
+    margin-left: 9px;
+}
+
+div.post_created div#autore img
+{
+    border-radius: 30px;
+    margin-left: 285px;
+    margin-top: 24px;
+}
+
+nav#nav_menu div#people_div, nav#nav_menu div#groups_div
+{
+    background-color: white;
+    margin-top: 15%;
+    border-radius: 25px;
+    width: 250px;
+    margin-left: 6%;
+    border: 1px solid grey;
+}
+
+div.post_created div#autore div#nome
+{
+    margin-left: 90px;
+}
+
+div.post_created div.contenuto
+{
+    margin-left: 90px;
+}
+
+div#people_div  li
+{
+    margin-left: 25px;
+    
+}
+
+div#people_div div#logo_people h2
+{
+    margin-left: 30px;
+    
+}
+div#form_post form h1
+{
+    
+    margin-left: 90px;
+}
+
+div#form form button#invia
+{
+    
+    width: 90px;
+    background-color: #C5CAE9;
+    color: black;
+    padding: 14px 20px;
+    
+   
+    border-radius: 4px;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-left: 40%;
+    
+    margin-top:3em;
+    box-shadow: 0 5px #999;
+}
+
+div#form_post form button#invia 
+{
+    
+    width: 90px;
+    background-color: #C5CAE9;
+    color: black;
+    padding: 14px 20px;
+    
+   
+    border-radius: 4px;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-left: 40%;
+    
+    margin-top:3em;
+    box-shadow: 0 5px #999;
+    
+}
+
+div#page div#post div.post_created
+{
+    height: 350px;
+      width:700px;
+      
+      margin-left: 350px;
+      
+      margin-right: 2em;
+      
+      border-radius: 25px;
+     border: 1px solid grey;
+     margin-bottom: 10%;
+     background-color: white;
+}
+
+
+#link_page ul
+{
+     position: relative;
+     display: inline-block;
+     list-style: none;
+    
+}
+
+#link_page ul li
+{
+        
+        display: inline-block;
+        
+}
+
+div#link_page 
+{    
+    float:right;
+    position: relative;
+    right:30px;
+    top:-158px;
+    
+    
+    
+}
+
+
+
+#login
+{
+    position: relative;
+    right:400px;
+    
+}
+
+#profilo
+{
+    position: relative;
+    right:200px;
+    
+}
+
+
+div#image_div
+{
+    position:relative;
+    height: 200px;
+    width: 600px;
+    
+    margin-top: 90px
+       
+    
+}
+
+div#welcome_div 
+{   
+    position:relative;
+    width: 600px;
+    height: 80px;
+    
+    margin-top:130px;
+    
+}
+
+
+p#welcome_phrase 
+{
+    
+    font-family:  sans-serif;
+    font-size:18pt;
+    
+}
+
+
+
+div#section
+{
+    
+    float:right;
+    
+    
+    margin-top: -350px;
+    
+}
+
+
+
+div#finale_div
+{
+    
+    text-align: center;
+    margin-top:7em;
+}
+
+
+
+div#nerdbook_div
+{
+   position:absolute;
+   height: 58px;
+   top:0;
+   left:0;
+   width:25%;
+   
+   border-right:1px solid grey;
+   border-left:1px solid grey;
+   
+   text-align: center;
+   position:fixed;
+   
+}
+
+nav
+{
+    position: fixed;
+    background-color: #E8EAF6;
+}
+
+nav#nav_menu
+{
+    
+   position:absolute;
+   height:100%;
+   top:59px;
+   left:0;
+   width:25%;
+   /*border-right:1px solid grey;*/
+   border-top:1px solid grey;
+   
+   border-left:1px solid grey;
+   position:fixed;
+   border-right: 1px solid grey;
+
+}
+
+div#search_button
+{
+    position:relative;
+    top:20px;
+    left:30px;
+
+}
+
+
+div.people_div
+{
+    
+    position: relative;
+    top:30px;
+    padding-left: 30px;
+    
+    width:25%
+    
+    
+    
+}
+
+.people_div ul
+{
+    list-style-image: url('/Users/andreacorpino/NetBeansProjects/NerdBook_3/web/M2/Image/icon_3.png');
+     
+     
+}
+
+
+   .people_div ul li
+   { margin:0 20px 20px 0; 
+     vertical-align:top;
+    
+    
+   }
+   
+   div.people_div
+   {
+       position: absolute;
+       margin-top:20px;
+       padding-left: 30px;
+       width: 280px;
+       
+       
+   }
+   
+   div#groups_div
+   {
+       position: absolute;
+       margin-top:250px;
+       padding-left: 30px;
+       width: 280px;
+       
+       
+   }
+   
+  div#logo_groups_div ::before
+  {
+      content:url('img/gropus.png');
+  }
+  
+  div#logo_people ::before
+  {
+      content:url('img/userr.png');
+  }
+  
+  
+   
+  div#groups_div ul
+  {
+        list-style:none;
+
+  }
+  
+  l
+  
+  h2#ccc ::before
+  {
+      content:url('img/nerd.png');
+  }
+  
+  
+  div#profil_div
+  {
+   position:absolute;
+   height: 58px;
+   top:0;
+   left:317px;
+   width: 15%;
+   
+   border-right:1px solid grey;
+   
+   text-align: center;
+      
+  }
+  
+  
+  
+  div.context_profilo
+  {
+     background-color: #E8EAF6; 
+     border-bottom: 1px solid #E8EAF6 ;
+     border-left: 1px solid grey ;
+      
+  }
+  
+  div#bachecha_div
+  {
+      
+      background-color:#C5CAE9 ;
+      border-bottom: 1px solid grey;
+  }
+  
+  div.page form textarea#descrizione ,div.page form label
+  {
+      display:block;
+      
+  }
+  
+  div.page form input
+  {
+      border-radius: 20px;
+  }
+  
+  div.page form textarea#descrizione
+  {
+      margin-left: 230px;
+      border-radius: 20px;
+  }
+  
+  div.page form label
+  {
+      margin-left: 45%;
+  }
+  
+  div#user_div
+  {
+      margin-top: -15px;
+  }
+  
+  div#bachecha_div
+  {
+   position:absolute;
+   height: 58px;
+   top:0;
+   left:506px;
+   width: 200px;
+   
+   border-right:1px solid grey;
+   border-left:1px solid grey;
+   text-align: center;
+   background-color:#C5CAE9 ;
+   border-bottom: 1px solid grey;
+  }
+  
+  
+  div#user_div
+  {
+    position:absolute;
+   height: 58px;
+   top:0;
+   right:0;
+   width: 30%;
+    text-align: center;
+    
+   
+  }
+  
+  a#logout
+  {
+      position:relative;
+      bottom:13px;
+  }
+  
+  p#username_id ::before
+  {
+      content:url('img/icon_3.png');
+  }
+  
+  
+  
+ 
+  
+  div#new_post_id
+  {
+      margin-left: -150px;
+      margin-right:2em;
+  }
+   div#new_url_id
+  {
+      margin-left:-2px;
+      margin-right:2em;
+  }
+  
+  div#article_div
+  {
+      
+      background-color: #E8EAF6;
+      
+      
+      height: 280%;
+      margin-top:59px;
+      margin-left:25%;
+      width:75%;
+      
+      
+      
+  }
+  
+  
+  div#creazione_post_div
+  {
+      
+      margin-top:10%;
+      height: 300px;
+      width:880px;
+      margin-top:2em;
+      margin-left: 2em;
+      
+      margin-right: 2em;
+      
+      border-radius: 25px;
+      border: 1px solid grey;
+      background-color: white;
+      margin-bottom: 10%;
+         
+  }
+  
+  
+  input[type=text]
+  {
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 70px;
+    margin-top:3em;
+   
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+  input[type=url]
+  {
+    width: 499px;
+    padding: 12px 20px;
+    margin: 8px 102px;
+    margin-top:3em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
+  
+  input[type=radio] 
+  {
+    margin-top: 3em;
+    margin-left: 102px;
+   
+  }
+  
+  
+  div#button_login button
+  {
+      width: 60%;
+    background-color: #C5CAE9;
+    color: black;
+    padding: 14px 20px;
+    
+   
+    border-radius: 4px;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:3em;
+    box-shadow: 0 5px #999;
+  }
+  
+  
+  input[type=submit]
+  {
+    
+    width: 60%;
+    background-color: #C5CAE9;
+    color: black;
+    padding: 14px 20px;
+    
+   
+    border-radius: 4px;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:3em;
+    box-shadow: 0 5px #999;
+   
+  }
+  
+  div#search_button div input#search
+  {
+      
+      border-radius: 15px;
+  }
+  
+div.option option
+{
+    
+    margin-left: 70px;
+    
+}
+
+
+
+ div.people_div
+  {
+      
+      height: 400px;
+      width:880px;
+      
+      margin-left: 2em;
+      
+      margin-right: 2em;
+      
+      border-radius: 25px;
+     border: 1px solid grey;
+     margin-bottom: 10%;
+     background-color: white;
+  }
+  
+  
+  
+  
+  img.profilo_imm
+  {
+      
+      border: 1px solid black;
+      margin-bottom: 1em;
+      margin-top: 2em;
+      margin-left: 2em;
+      margin-right: 2em;
+      
+     
+      
+  }
+  
+  
+  
+  div.text
+  {
+      margin-left:2em;
+      margin-top: 2em;
+      padding-bottom:1em;
+      border-bottom: 1px solid grey;
+      width: 80%;
+      
+  }
+  
+  div.link
+  {
+      margin-left:2em;
+      margin-top: 2em;
+      padding-bottom:1em;
+      border-bottom: 1px solid grey;
+      width: 80%;
+      
+  }
+  
+ 
+  
+  div h2.name_profile
+  { 
+      
+      display:inline;
+      padding-top:-10px;
+      
+      
+  }
+  
+  div.nname
+  {
+      
+      margin-left:125px;
+      margin-top: -60px;
+      margin-bottom:70px;
+     
+      
+  }
+  
+ 
+  
+  
+  img.image_post
+  {
+      border:1px solid grey;
+      margin-left: 2em;
+  }
+  
+ 
+  div#user_div
+  {
+      position: fixed;
+  }
+  
+  header
+  {
+      position:fixed;
+      
+  }
+  
+  div#login_form
+  {
+     
+      background-color: white;
+      
+      margin-left:25%;
+      margin-right:25%;
+      margin-top:5%;
+     
+      border-radius: 25px;
+      border: 1px solid grey;
+      
+     
+      width:50%;
+      height: 500px;
+  }
+  
+  
+  
+  
+  div.userr
+  {
+      position:relative;
+      left:10em;
+      
+      
+  }
+  
+  input#psw
+  {
+      width:50%;
+      margin-left:25%;
+      
+  }
+  
+  input#usr
+  {
+      width:50%;
+      margin-left:25%;
+      
+  }
+  
+  
+  
+  
+div.user_login
+{
+    margin-top:10%;
+}
+  
+div#login_form input[type=text]
+{
+    width: 80%;
+    padding: 12px 20px;
+    margin-top: 8px ;
+    margin-left:10%;
+    margin-bottom: 10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+div#login_form input[type=password]
+{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+  
+div.psw_login label
+{
+    
+    margin-left: 45%;
+    
+}
+
+div.user_login label
+{
+    
+    margin-left: 45%;
+    
+    
+}
+  
+div.user_login form
+{
+   padding-top: 0;
+}
+
+
+
+
+
+div#NB_login h1
+{
+    
+    font-size: 70px;
+    text-align: center;
+    
+}
+
+
+ div#div_form
+ {
+     margin-left:5em;
+     
+ }
+
+ div#profile_form
+  {
+      
+      margin-top:10%;
+      height: 700px;
+      width:880px;
+    
+      margin-left: 2em;
+      
+      margin-right: 2em;
+      
+      border-radius: 25px;
+      border: 1px solid grey;
+      background-color: white;
+      margin-bottom: 10%;
+         
+  }
+  
+  div#name_form, div#surname_form
+  {
+   margin-left:100px;
+    
+  }
+  
+  div#url_form
+  {
+   margin-left:15px;
+    
+  }
+  
+  div#phrase_form
+  {
+      margin-left: 100px;
+      
+  }
+  
+  div#date_form,  div#psw_form,  div#confirm_psw_form
+  {
+      margin-left: 325px;
+      margin-bottom:2em;
+      
+  }
+  
+  div#nome_utente, div#cognome_utente, div#url_profilo, div#frase_utente, div#data_utente, div#pssw_utente, div#confirm_pssw_utente
+  {
+      text-align: center;
+      margin-top:1em;
+      
+      
+  }
+  
+ 
+      
+     div#frase 
+     {
+    margin-left: 350px;
+    margin-top: 75px;
+      }
+  
+    div.buttonP button
+    {
+        
+        border-radius:20px;
+        
+    background-color: #C5CAE9;
+    color: black;
+    padding: 14px 20px;
+    
+   
+    border-radius: 4px;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-left: 20%;
+    margin-top:3em;
+    box-shadow: 0 5px #999;
+   
+    }
+  
+  div.page form {
+    border: 1px solid grey;
+    border-radius: 45px;
+    width: 600px;
+    height: 700px;
+    background-color: white;
+    margin-top: 90px;
+    margin-left: 25%;
+}
+  
+  div.testo_input input
+  {
+      border-radius: 25px;
+      margin-left: 100px;
+      width: 495px;
+      
+  }
+  
+  div.url_input input
+  {
+      border-radius: 25px;
+      
+  }
+  
+  div.button button
+  { 
+    
+    margin-top: 50px;
+    border-radius: 9px;
+    height: 40px;
+    width: 115px;
+  
+    ;
+    background-color: #C5CAE9;
+    color: black;
+    padding: 14px 20px;
+    
+   
+    border-radius: 4px;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top:3em;
+    box-shadow: 0 5px #999;
+  
+  }
+  
+  div#page form
+  {
+      height: 350px;
+      border-radius: 25px;
+      border: 1px solid grey;
+      background-color: white;
+      width: 700px;
+      margin-left: 350px;
+  
+      
+  }
+  
+  /* CSS RESPONSIVE */
+  
+  @media only screen and (min-width: 1024px)
+  {
+      
+      h1#nerdbook_h1
+      {
+           background-color: red;
+          
+      }
+      
+      h1#nerdbook_phrase
+      {
+           background-color: red;
+          
+      }
+      
+      div#section   
+      {
+    float:none;
+    margin-top: -350px;
+    margin-left: 543px;
+    }
+    
+    div#nerdbook_div 
+    {
+    width: 305px;
+    
+    }
+    
+    div#profil_div
+    {
+        
+        border-right: none;
+    }
+      
+    nav#nav_menu
+    {
+        width: 305px;
+        
+    }
+  }
+  
+  @media only screen and (min-width: 480px) and (max-width: 1024px)
+  {
+      h1#nerdbook_h1
+      {
+           background-color: blue;
+          
+      }
+      
+      h1#nerdbook_phrase
+      {
+           background-color: blue;
+          
+      }
+      
+      div#phrase_div 
+      {
+   
+    left: 15px;
+    
+}
+      
+      div#nerdbook_div
+      {
+          display:none;
+      }
+      div#section 
+      {
+    
+        margin-top: -300px;
+        }
+   div#profil_div 
+   {
+    
+    left: 20px;
+    width: 149px;
+    left: -18px;
+    border-right:none;
+    
+    }
+    
+    div#page form 
+    {
+    
+    width: 500px;
+    margin-left: 325px;
+    }
+    
+    div.option
+    {
+        margin-left: -45px;
+    }
+    
+    div#page div#post div.post_created 
+    {
+    
+    width: 500px;
+    margin-left: 325px;
+    
+    }
+    
+    div.post_created div#autore img 
+    {
+    margin-left: 200px;
+   
+    }
+    
+    div.post_created div#autore div#nome 
+    {
+    margin-left: 10px;
+    }
+    
+    div.post_created div.contenuto 
+    {
+    margin-left: 10px;
+}
+    
+    div.testo_input input,div.url_input input 
+    {
+    
+    margin-left: 10px;
+    width: 475px;
+    }
+    
+    nav#nav_menu
+    {
+        width: 325px;
+        
+    }
+    
+    div.page form 
+    {
+    
+    margin-left: 40px;
+    }
+    
+    div#bachecha_div 
+    {
+    
+    left: 165px;
+    width: 160px;
+    
+    }
+      
+    div#image_div
+    {
+        display: none;
+    }
+    
+    div#welcome_div {
+    position: static ;
+    width: 600px;
+    height: 80px;
+    margin-top: 270px;
+}
+    div#section
+    {
+        float:none;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 780px)
+  {
+      h1#nerdbook_h1
+      {
+           background-color: green;
+          
+      }
+      
+      h1#nerdbook_phrase
+      {
+           background-color: green;
+          
+      }
+      
+      div#welcome_div 
+      {
+    display: none;
+    }
+      
+    div#finale_div 
+    {
+    
+    float: left;
+    margin-left: 290px;
+    }
+      
+     div#nerdbook_div
+     {
+         display: none;
+     }
+    
+    div#profil_div 
+    {
+    left: 0;
+    width: 200px;
+    }
+    
+    nav#nav_menu
+    {
+        width: 199px;
+    }
+    
+    nav#nav_menu div#people_div
+    {
+        width: 175px;
+    }
+    
+    nav#nav_menu div#groups_div
+    {
+        width: 140px;
+        
+    }
+    
+    div#bachecha_div
+    {
+    
+    left: 200px;
+    width: 135px;
+  
+    }
+    
+    div#form_post form
+    {
+        
+        margin-left: 195px;
+        width: 400px;
+    }
+    
+    div.testo_input input, div.url_input input
+    {
+        margin-left: 5px;
+        width: 380px;
+        
+    }
+    
+    
+    
+    div.option 
+    {
+        margin-left: -35px;
+        
+    }
+    
+    input[type=radio]
+    {
+    
+    margin-left: 50px;
+    }
+    
+    div#page div#post div.post_created 
+    {
+    
+    width: 400px;
+    margin-left: 195px;
+    
+    }
+    
+    div#frase
+    {
+        margin-left: 200px;
+        
+    }
+    
+    div.post_created div#autore img 
+    {
+    
+    margin-left: 150px;
+    
+    }
+    
+    div.post_created div#autore div#nome,div.post_created div#autore div#contenuto
+    {
+    margin-left: 10px;
+    }
+    
+    div.post_created div.contenuto 
+    {
+    margin-left: 10px;
+    }
+    
+    div#page form 
+    {
+    height: 255px;
+    width: 400px;
+    margin-left: 195px;
+}
+
+div.page form   
+{
+   
+    width: 510px;
+    height: 700px;
+    margin-left: -5px;
+}
+
+input[type=text] 
+{
+    margin-left: 35px;
+}
+
+div.page form textarea#descrizione
+{
+    margin-left: 190px;
+    
+}
+div#main
+{
+    position: absolute;
+}
+
+div#image_div
+{
+    display:none;
+}
+
+div#phrase_div 
+{
+    
+    left: 5px;
+    
+}
+#link_page ul li 
+{
+    
+    margin-left: -150px;
+}
+
+div#link_page{
+    
+    right: -265px;
+    
+}
+div#welcome_div 
+{
+    
+    width: 490px;
+    
+    top: 61px;
+}
+div#section 
+{
+    
+    margin-top: 70px;
+}
+     
+  }
+  
+  @media only screen and (max-width: 480px)
+  {   
+      
+      div#profil_div
+      {
+           background-color: yellow;
+          
+      }
+      
+      h1#nerdbook_phrase
+      {
+           background-color: yellow;
+          
+      }
+      
+      #login
+    {
+    
+    right:20px;
+    
+    }
+
+    #profilo
+    {
+    
+    right:10px;
+    
+    }
+    
+    div#image_div
+    {
+        
+        display: none;
+        
+    }
+    
+    #welcome_phrase
+    {
+        display: none;
+        
+    }
+    #welcome_div
+    {
+        display: none;
+        
+    }
+    
+    div#section
+    {
+        margin-top: 60px;
+    }
+    div#asked_question
+    {
+        display: none;
+    }
+    
+    div#section div ul
+    {
+        font-size: 10pt;
+        
+    }
+    
+    div.user_login label 
+    {
+    display: inline;
+    }
+      
+    
+    div#login_form 
+    {
+    
+    height: 300px;
+    }
+    
+    nav#nav_menu
+    {
+        
+        display:none;
+        
+    }
+    
+    div#nerdbook_div
+    {
+        display:none;
+    }
+    
+    div#profil_div
+    {
+        left: 0px;
+        border-right: 1px solid #C5CAE9 ;
+        width: 100px;
+    }
+    
+    div#bachecha_div
+    {
+        left: 100px;
+        
+        width: 100px;
+    }
+    
+    input[type=text]
+    {
+        width:200px;
+        margin:0px -70px;
+       
+        
+    }
+    
+    
+    div#profile_form
+    {
+        width: 440px;
+        margin-left: 0px;
+        
+    }
+    div#form_post form
+    {
+        
+        margin-left: 0px;
+        width: 400px;
+    }
+    
+    div.testo_input input, div.url_input input
+    {
+        margin-left: 20px;
+        width: 360px;
+        margin-top: 10px
+    }
+    
+    div#page div#post div.post_created
+    {
+        margin-left: 0px;
+        width: 405px;
+    }
+    div#page div#form form
+    {
+        
+        margin-left: 0px;
+        width: 405px;
+        
+    }
+    div.psw_login label 
+    {
+    margin-left: 80px;
+    }
+    div.user_login label 
+    {
+    margin-left: 80px;
+}
+    
+    div.page form
+    {
+        
+        margin-left: 0px;
+        width: 430px;
+        height: 460px;
+        
+    }
+    
+    div.page form textarea#descrizione 
+    {
+    margin-left: 150px;
+    
+    }
+    
+    div.buttonP
+    {
+        margin-left: -30px;
+    }
+    
+    input#name_utente,input#cognome,input#imgurl
+    {
+        margin-left: 95px;
+        
+    }
+    
+    div.post_created div#autore img
+    {
+        margin-left: 30px;
+    }
+    
+    div.option
+    {
+        margin-left: -75px;
+    }
+    
+    div#frase
+    {
+        margin-left: 10px;
+        
+    }
+    
+    
+    
+    div.post_created div#autore div.contenuto
+    {
+    margin-left: 30px;
+}
+      
+    div#section 
+    {
+   
+    margin-top: 50px;
+    }
+      
+    div#link_page 
+    {
+    right: -90px;
+}
+  }

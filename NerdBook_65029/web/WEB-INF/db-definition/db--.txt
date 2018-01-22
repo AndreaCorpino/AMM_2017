@@ -1,0 +1,30 @@
+abbiamo 5 Entità
+Utenti, Post, Gruppi, Amici , Membri
+
+Attributi [Utenti]{
+	id(Chiave Primaria), nome, cognome, eMail, urlFoto,  frase, password
+}
+
+Attributi [Post]{
+	id(Chiave Primaria), autore(Referenzia id Utenti), bacheca_ut(referenzia id Utenti), gruppo (Referenzia id Gruppi), contenuto, tipo, allegato
+}
+
+Attributi [Gruppi]{
+	id(Chiave Primaria), nome, urlFoto
+}
+
+Attributi [Membri]{
+	id1,id2(Chiavi Primarie),
+	id1(Referenzia id Gruppi )
+	id2(Referenzia id Utenti)
+}
+
+Attributi [Amici]{
+	id1,id2(Chiavi Primarie),
+	id1(Referenzia id utenti )
+	id2(Referenzia id Utenti)
+}
+
+
+
+

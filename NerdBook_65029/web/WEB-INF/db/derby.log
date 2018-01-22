@@ -1,0 +1,20 @@
+Mon Jan 22 22:46:03 CET 2018 : Apache Derby Network Server - 10.11.1.2 - (1629631) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Mon Jan 22 22:46:03 CET 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-0161-1fd5-d6df-00003e8bc2df 
+on database directory C:\Users\Andrea\Documents\NetBeansProjects\NerdBook_65029\web\WEB-INF\db\ammdb with class loader sun.misc.Launcher$AppClassLoader@144bcfa 
+Loaded from file:/C:/Program%20Files%20(x86)/Java/jdk1.8.0_151/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_151-b12
+user.dir=C:\Program Files (x86)\Java\jdk1.8.0_151\db
+os.name=Windows 10
+os.arch=x86
+os.version=10.0
+derby.system.home=C:\Users\Andrea\Documents\NetBeansProjects\NerdBook_65029\web\WEB-INF\db
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Jan 22 23:11:52 CET 2018: Shutting down Derby engine
+----------------------------------------------------------------
+Mon Jan 22 23:11:52 CET 2018:
+Shutting down instance a816c00e-0161-1fd5-d6df-00003e8bc2df on database directory C:\Users\Andrea\Documents\NetBeansProjects\NerdBook_65029\web\WEB-INF\db\ammdb with class loader sun.misc.Launcher$AppClassLoader@144bcfa 
+----------------------------------------------------------------
